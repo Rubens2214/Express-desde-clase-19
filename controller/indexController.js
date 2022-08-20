@@ -1,4 +1,5 @@
-const path = require("path")
+const path = require("path");
+const router = require("../routers");
 
 const indexControllers = {
     index: (req, res)=>{

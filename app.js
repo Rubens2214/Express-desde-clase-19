@@ -13,10 +13,10 @@ const usersRoutes = require("./routers/users");
 const mainRoutes = require("./routers/main");
 const indexRoutes = require("./routers/index");
 //Rutas//
+app.use("/", mainRoutes);
 app.use("/products", productsRoutes);
 app.use("/users", usersRoutes);
-app.use("/",mainRoutes);
-app.use("/index",indexRoutes);
+app.use("/index", indexRoutes);
 
 
 
